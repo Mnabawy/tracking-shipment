@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0px 10%;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
+  align-items: center;
+}
+
+.actions a {
+  text-decoration: none;
+  font-family: "cairo-bold";
+  font-weight: bold;
+  font-size: 24px;
+  color: #01011f;
+}
+
+.button {
+  font-family: "cairo-bold";
+  border: none;
+  background: none;
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}

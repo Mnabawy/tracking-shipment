@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "cairo";
+  src: url("./assets/fonts/Cairo/Cairo-Regular.ttf");
+}
+@font-face {
+  font-family: "cairo-bold";
+  src: url("./assets/fonts/Cairo/Cairo-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: cairo;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,9 @@
+{
+  "buttons": {
+    "main": "main",
+    "prices": "prices",
+    "callSales": "call sales",
+    "followYourShipment": "follow your shipment",
+    "signIn": "sign in"
+  }
+}
