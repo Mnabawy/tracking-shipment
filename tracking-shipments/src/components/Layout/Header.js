@@ -16,12 +16,12 @@ const Header = () => {
             onClick={() => {
               i18n.changeLanguage("en");
             }}
-            >
+          >
             ENG
           </button>
         ) : (
           <button
-          className={classes.button}
+            className={classes.button}
             onClick={() => {
               i18n.changeLanguage("ar");
             }}
@@ -37,7 +37,7 @@ const Header = () => {
         <a href="/">{t("buttons.prices")} </a>
         <a href="/">{t("buttons.main")}</a>
       </div>
-      <div clssName={classes.logo}>
+      <div className={classes.logo}>
         <LogoIcon />
       </div>
     </div>

@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: cairo;
+  font-family: 'cairo';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

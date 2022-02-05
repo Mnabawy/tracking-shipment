@@ -5,5 +5,18 @@
     "callSales": "كلم المبيعات",
     "followYourShipment": "تتبع شحنتك",
     "signIn": "تسجيل الدخول"
+  },
+  "progress": {
+    "shipmentNumber": "رقم الشحنة",
+    "lastUpdate": "اخر تحديث",
+    "dealerName": "اسم التاجر",
+    "deliveryTime": "موعد التسليم",
+    "shipmentCreated": "تم انشاء الشحنة",
+    "shipmentRecievedFromDealer": "تم استلام الشحنة من التاجر",
+    "shipmentOutForDelivery": "الشحنة خرجت للتسليم",
+    "shipmentRecieved": "تم التسليم"
+  },
+  "dummy_data": {
+    "recieved": "تم تسليم الشحنة"
   }
 }

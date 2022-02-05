@@ -20,7 +20,7 @@ i18n
   .init({
     resources,
     
-    lng: "en",
+    lng: "ar",
     interpolation: {
       escapeValue: false,
     },

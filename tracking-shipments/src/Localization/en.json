@@ -1,9 +1,22 @@
 {
   "buttons": {
-    "main": "main",
-    "prices": "prices",
-    "callSales": "call sales",
-    "followYourShipment": "follow your shipment",
-    "signIn": "sign in"
+    "main": "Main",
+    "prices": "Prices",
+    "callSales": "Call Sales",
+    "followYourShipment": "Follow Your Shipment",
+    "signIn": "Sign In"
+  },
+  "progress": {
+    "shipmentNumber": "Shipment Number",
+    "lastUpdate": "Last Update",
+    "dealerName": "Dealer Name",
+    "deliveryTime": "Delivery Time",
+    "shipmentCreated": "Shipment Created",
+    "shipmentRecievedFromDealer": "Shipment Recieved From Dealer",
+    "shipmentOutForDelivery": "Shipment Out For Delivery",
+    "shipmentRecieved": "Shipment Recieved"
+  },
+  "dummy_data": {
+    "recieved": "recieved"
   }
 }
