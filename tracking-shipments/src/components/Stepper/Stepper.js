@@ -4,15 +4,21 @@ import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
 import "./Stepper.module.css";
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
-const steps = [
-  "تم التسليم",
-  "الشحنة خرجت للتسليم",
-  "تم استلام الشحنة من التاجر",
-  "تم انشاء الشحنة",
-];
+console.log(t("stepper.created"));
 
 const CustomStipper = () => {
+  const { t, i18n } = useTranslation();
+  
+  const steps = [
+    t("stepper.shipmentDelevired"),
+    t("stepper.outForDelivery"),
+    t("stepper.recievedFromDealer"),
+    t("stepper.created"),
+  ];
+
   return (
     <Stepper
       activeStep={4}

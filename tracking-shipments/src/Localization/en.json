@@ -18,5 +18,16 @@
   },
   "dummy_data": {
     "recieved": "recieved"
-  }
+  },
+  "stepper": {
+    "created": "shipment created",
+    "recievedFromDealer": "recieved from dealer",
+    "outForDelivery": "shipment is out for delivery",
+    "shipmentDelevired": "shipment delevired"
+  },
+  "shipmentDetails": "Shipment Details",
+  "shipmentAddress": "Deleviry address",
+  "dummyAdress": "talaat harb street co-workers city beside brens house 17",
+  "haveProblem": "do you hava a problem",
+  "reportProblem": "Report a Problem"
 }

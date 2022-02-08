@@ -1,0 +1,7 @@
+.comtainer {
+  padding: 50px;
+}
+
+.gray-ackground {
+  background-color: var(--lightGray);
+}

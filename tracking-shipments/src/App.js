@@ -1,24 +1,15 @@
 import { useEffect } from "react";
-import "./App.css";
 import Header from "./components/Layout/Header";
-import BasicTable from "./components/Table/BasicTable";
 import Table from "./components/Table";
-import ShipmentProgres from "./components/Wizzard/ShipmentProgres";
-import {
-  getShipments,
-  getTransitEvents,
-  getTableData,
-} from "./Services/Shipments";
+import ShipmentProgres from "./components/Stepper/ShipmentProgres";
 
-import apiUrl from "./Utils/confi.json";
+import classes from "./App.module.css";
 
 function App() {
-
   return (
-    <div className="App">
+    <div className={classes.container}>
       <Header />
       <ShipmentProgres />
-      {/* <BasicTable /> */}
       <Table />
     </div>
   );

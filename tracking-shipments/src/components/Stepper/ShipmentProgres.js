@@ -28,10 +28,9 @@ const ShipmentProgres = () => {
           textColor="green"
         />
       </div>
-      <hr />
+      <hr style={{ border: " 1px solid var(--lightGray)" }} />
       <div className={classes.stepper}>
         <CustomStipper />
-
       </div>
     </div>
   );

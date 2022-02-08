@@ -18,5 +18,16 @@
   },
   "dummy_data": {
     "recieved": "تم تسليم الشحنة"
-  }
+  },
+  "stepper": {
+    "created": "تم انشاء الشحنة",
+    "recievedFromDealer": "تم استلام الشحنة من التاجر",
+    "outForDelivery": "الشحنة خرجت للتسليم",
+    "shipmentDelevired": "تم استلام الشحنة"
+  },
+  "shipmentDetails": "تفاصيل الشحنة",
+  "shipmentAddress": "عنوان التسليم",
+  "dummyAdress": "امبابة شارع طلعت حرب مدينة العنال بجوار البرنس منزل 17 ",
+  "haveProblem": "هل يوجد مشكلة في شحنتك",
+  "reportProblem": "ابلاغ عن مشكلة"
 }

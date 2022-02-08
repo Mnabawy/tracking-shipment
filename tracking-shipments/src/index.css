@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: 'cairo';
+  font-family: "cairo";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -17,4 +17,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --primary: #01011f;
+  --lightGray: #f0f0f0;
 }

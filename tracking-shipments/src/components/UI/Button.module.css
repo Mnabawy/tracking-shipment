@@ -1,0 +1,13 @@
+.button {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 28px;
+    font-size: 13px;
+    font-family: "cairo";
+    border-radius: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+  }
