@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useMediaQuery } from "react-responsive";
 import date from "date-and-time";
 
 import { getTableData } from "../Services/Shipments";
